@@ -24,6 +24,7 @@ app.get('/api/hello', function (req, res) {
   res.json({ greeting: 'hello API' });
 });
 
+// to show whoami
 app.get('/api/whoami', function (req, res) {
   res.json({
     "ipaddress": req.ip,
